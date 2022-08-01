@@ -1,1 +1,80 @@
-*{background-color: #000080;}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+*{font-family: 'open sans'; box-sizing: border-box; margin: 0; padding: 0;}
+
+:root{--vermelho: #f03c42; --branco: #ffffff; --azul: #222374; --preto: #000000;
+      --cinza: #cccccc;}
+
+body{background-color: var(--cinza);}
+/*---------------------------------------cabeçalho-------------------------------------*/
+
+.container0{display: flex; justify-content: space-between; align-items: center; width: 1200px; height: 100px;
+            margin: 0 auto; background-color: var(--vermelho); color: var(--branco);}
+
+.pri{margin-left: 120px; width: 99px;}
+
+.pri h1{font-size: 18px; font-weight: 700;}
+
+.sec{margin-right: 120px;}
+
+.sec img{width: 30px; height: 30px;}
+
+.sec p{width: 85px; font-weight: 400; font-size: 14px;}
+
+.sec{display: flex; align-items: center;}
+
+.sec p{margin-left: 10px;}
+
+/*---------------------------------------fim cabeçalho-----------------------------------*/
+/*---------------------------------------sessão1-----------------------------------------*/
+
+.total1{background-color: var(--azul); height: 418px; width: 1200px; margin: 0 auto;
+         justify-content: center;}
+
+.titu{width: 357px; margin-left: 120px;}
+
+.titu h2{font-weight: 700; font-size: 32px; color: var(--branco); padding: 20px 0 40px 0;}
+
+.cart{width: 960px; margin: 0 auto; background-color: var(--cinza); height: 127px; flex-direction: column; display: flex; align-items: flex-start;
+      justify-content: space-around; color: var(--preto); border-radius: 8px}
+
+.cart h3{width: 142px; height: 27px; margin: 10px 0 0 20px; font-size: 20px;}
+
+.cart p{width: 920px; height: 40px; margin: 0 0 20px 20px;}
+
+.entre{margin-bottom: 20px;}
+
+/*----------------------------------------fim sessão1------------------------------------*/
+/*---------------------------------------sessão2-----------------------------------------*/
+
+.total2{background-color: var(--branco); height: 880px; width: 1200px; margin: 0 auto;
+         justify-content: center;}
+
+.titu1{width: 357px; margin-left: 120px;}
+
+.titu1 h2{font-weight: 700; font-size: 32px; color: var(--vermelho); padding: 10px 0 20px 0;}
+
+.cart1{width: 960px; margin: 0 auto; background-color: var(--azul); height: 106px;
+        flex-direction: column; display: flex; align-items: flex-start;
+        justify-content: space-around; color: var(--branco); border-radius: 8px}
+
+.cart1 h3{width: 119px; height: 44px; margin: 20px 0 0 20px; font-size: 20px;}
+
+.cart1 p{width: 663px; height: 19px; margin: 0 0 20px 20px; font-size: 14px;}
+
+.entre1{margin-bottom: 20px;}
+
+/*----------------------------------------fim sessão2------------------------------------*/
+/*---------------------------------------rodapé------------------------------------------*/
+
+.total3{background-color: var(--preto); color: var(--branco); width: 1200px; height: 262px;
+        margin: 0 auto; flex-direction: column; display: flex; align-items: center; justify-content: center;
+        padding-bottom: 60px;}
+
+ .inst{display: flex; padding-top: 60px;}
+
+ .twee{display: flex; padding-top: 10px;}
+
+ .final{text-align: center; padding-top: 30px }
+/*----------------------------------------fim rodapé-------------------------------------*/
